@@ -18,19 +18,28 @@ main.py: Ties all of these functions together
 
 
 Example output:
+
 Epoch 100/100, File 1/15, Loss: 0.5656
+
 Epoch 100/100, File 2/15, Loss: 0.1493
+
 ...
+
 Epoch 100/100, Average Loss: 0.1599
 
 
 Transcribing file: skills.wav
+
 Features shape: (339, 13)
+
 Raw prediction: tensor([[23,  0, ...]])
+
 Transcription length: 275
 
 Transcription: whhhhaattt  i  ddo    hhaaveee  aaree   aa  vveerry  paartticuullaarrr  ssseett   off skkiilllls   skkiiillllsss  ii   haavvee aacqquiiirreeedd  oovver aaa vveeryy llonng ccarreeeeeerrr   sskilllllss   thhat mmakee mme aa niighttmaarree  foorr   ppeeopplee  liikkkee   yyyoou
 
 Current issues:
-My model is prone to overfitting due to a lack of post-processing to address overfitting. Future implementations to fix this might include using reularization techniques such as dropout or weight decay
+My model is prone to overfitting due to a lack of post-processing to address overfitting. Future implementations to fix this might include using reularization techniques such as dropout or weight 
+decay
+
 Furthermore, my model is trained on an extremely limited dataset leading to a general weak model due to a lack of enough quality data
