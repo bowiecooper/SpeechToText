@@ -10,19 +10,12 @@ inference.py: Handles the transcription of our audio files and outputs the shape
 utils.py: Utility function program to include methods such as character mappings
 main.py: Ties all of these functions together
 
-Example usage:
-
-python train.py
-
-output:
+Example output:
 Epoch 100/100, File 1/15, Loss: 0.5656
 Epoch 100/100, File 2/15, Loss: 0.1493
 ...
 Epoch 100/100, Average Loss: 0.1599
 
-python inference.py skills.wav
-
-output:
 
 Transcribing file: skills.wav
 Features shape: (339, 13)
