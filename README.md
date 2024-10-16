@@ -33,4 +33,4 @@ Transcription: whhhhaattt  i  ddo    hhaaveee  aaree   aa  vveerry  paartticuull
 
 Current issues:
 My model is prone to overfitting due to a lack of post-processing to address overfitting. Future implementations to fix this might include using reularization techniques such as dropout or weight decay
-Furthermore, my model is trained on an extremely limited dataset leading to a general weak model due to lack of enough data
+Furthermore, my model is trained on an extremely limited dataset leading to a general weak model due to a lack of enough quality data
