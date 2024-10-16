@@ -9,7 +9,7 @@ def main():
     # Setup
     char2idx, idx2char = create_char_mappings()
     
-    # Prepare data (replace with your actual data)
+    # Prepare data 
     audio_files = ['Conditions.wav', 'DontRemember.wav', 'GoingToTakeYou.wav', 'Goodluck.wav', 'IDontKnow.wav', 'LetMyDaughter.wav',
                     'Lied.wav', 'Negotiating.wav', 'NoIdea.wav', 'Sacrifice.wav', 'skills.wav', 'Space.wav', 'Stayfocus.wav', 'Taken.wav', 'Think.wav']
     
