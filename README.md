@@ -3,12 +3,19 @@
 A simple speech to text model utilizing librosa to extract mfcc features, a simple LSTM recurrent neural network for recognition, and audio clips from the movie "Taken" (great movie) for training
 
 Feature Extraction.py: We extract MFCC (Mel-Frequency Cepstral Coefficients) features from audio files using the librosa library.
+
 Data Processing.py: Prepares the data by loading audio files and generating feature and label mappings.
+
 myModel.py: A bidirectional LSTM (Long Short-Term Memory) network processes the audio features and outputs character predictions.
+
 train.py: The model is trained using CTC Loss (Connectionist Temporal Classification) to align the predicted outputs with transcriptions
+
 inference.py: Handles the transcription of our audio files and outputs the shape of our feeatures, our raw prediction in tensors, transcription length, and transcription
+
 utils.py: Utility function program to include methods such as character mappings
+
 main.py: Ties all of these functions together
+
 
 Example output:
 Epoch 100/100, File 1/15, Loss: 0.5656
