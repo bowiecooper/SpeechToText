@@ -26,7 +26,7 @@ def train_model(model, train_data, train_labels, epochs=100, lr=0.001):
             optimizer.step()
             
             total_loss += loss.item()
-            print(f"Epoch {epoch+1}/{epochs}, File {idx+1}/{len(train_data)}, Loss: {loss.item():.4f}")
+            #print(f"Epoch {epoch+1}/{epochs}, File {idx+1}/{len(train_data)}, Loss: {loss.item():.4f}")
         
         avg_loss = total_loss / len(train_data)
         scheduler.step(avg_loss)
